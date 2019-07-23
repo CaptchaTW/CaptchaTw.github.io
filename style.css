@@ -1,10 +1,26 @@
 html{
-  text-rendering: optimizelegibility
+  text-rendering: optimizelegibility;
+}
+h1{
+  font-family:"Eurostile",sans-serif;
 }
 #full-name{
-        color: #293347;
-        font-family: "eurostile", sans-serif;
+    color: #293347;   
 		font-size: 3rem;
-		font-weight: 800;
+    font-weight: 800;
+    text-align: center;
     }
-
+@font-face {
+    font-family: 'Eurostile';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eurostile'), url('Fonts/eurostile.woff') format('woff');
+  }
+      
+      
+@font-face {
+    font-family: 'EuroStyle Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('EuroStyle Normal'), url('Fonts/EuroStyle Normal.woff') format('woff');
+ }
