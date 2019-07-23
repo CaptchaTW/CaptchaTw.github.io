@@ -1,15 +1,42 @@
 html{
   text-rendering: optimizelegibility;
 }
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
 h1{
   font-family:"Eurostile",sans-serif;
 }
+
 #full-name{
-    color: #293347;   
-		font-size: 3rem;
-    font-weight: 800;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color:#d5d8e8;   
+		font-size: 18px;
+    font-weight: 1000;
     text-align: center;
+    margin: 0px;
+    font-weight: bold;
     }
+
+#person-description{
+  color:#d5d8e8; 
+  font-size: 16px;
+  font-weight: 1000;
+  position: static;
+  margin-top: 0px;
+}
+header{
+  background-color:#2C2E31;
+  border-bottom:#000000 2px solid;
+  width: 100%;
+  height:50px;
+  margin: 0;
+}
 @font-face {
     font-family: 'Eurostile';
     font-style: normal;
