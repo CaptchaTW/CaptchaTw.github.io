@@ -1,0 +1,10 @@
+html{
+  text-rendering: optimizelegibility
+}
+#full-name{
+        color: #293347;
+        font-family: "eurostile", sans-serif;
+		font-size: 3rem;
+		font-weight: 800;
+    }
+
