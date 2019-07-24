@@ -61,7 +61,8 @@ header{
 #welcome-description{
   color:#d5d8e8; 
   word-wrap: break-word;
-
+  margin: 0 auto; 
+  text-align: center;
 }
 #welcome-description-container{
 }
