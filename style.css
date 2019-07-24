@@ -7,12 +7,17 @@ body{
     padding: 0;
 
 }
+#about{
+  color:#d5d8e8;
+  text-align: center;
+  font-size:30px;
 
+}
 #full-name{
   font-family:"Eurostile",sans-serif;
     position: absolute;
     top:0;
-    left:34px;
+    left:50px;
     color:#d5d8e8;   
 		font-size: 18px;
     font-weight: 1000;
@@ -53,6 +58,14 @@ header{
   width: 30px;
   float: left;
 }
+#welcome-description{
+  color:#d5d8e8; 
+  word-wrap: break-word;
+
+}
+#welcome-description-container{
+}
+
 @font-face {
     font-family: 'Eurostile';
     font-style: normal;
