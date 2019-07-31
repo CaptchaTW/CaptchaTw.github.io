@@ -160,6 +160,10 @@ header{
   cursor:pointer;
 
 }
+#email-logo{
+width:3%;
+height: 3%;
+}
 @font-face {
     font-family: 'Eurostile';
     font-style: normal;
