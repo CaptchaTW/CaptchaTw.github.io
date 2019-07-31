@@ -2,6 +2,15 @@
 var modal = document.getElementById("my-modal");
 var image = document.getElementById("AR-geospatial");
 var span = document.getElementsByClassName("close")[0];
+var AR_image_change = document.getElementById("AR-geospatial-modal");
+var button_AR_change = document.getElementById("circle-click");
+var button_AR_change1 = document.getElementById("circle-click1");
+button_AR_change1.onclick= function(){
+  AR_image_change.src="Images/AR-milimeterwaves.jpg";
+}
+button_AR_change.onclick = function(){
+  AR_image_change.src="Images/AR-geospatial.jpg";
+}
 image.onclick = function() {
   modal.style.display = "block";
 }
