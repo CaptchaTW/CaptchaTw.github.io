@@ -5,6 +5,10 @@ var span = document.getElementsByClassName("close")[0];
 var AR_image_change = document.getElementById("AR-geospatial-modal");
 var button_AR_change = document.getElementById("circle-click");
 var button_AR_change1 = document.getElementById("circle-click1");
+var email_logo = document.getElementById("email-logo");
+email_logo.onclick= function(){
+  window.location.href = "mailto:yuchenmichaelchu@gmail.com";
+}
 button_AR_change1.onclick= function(){
   AR_image_change.src="Images/AR-milimeterwaves.jpg";
 }
