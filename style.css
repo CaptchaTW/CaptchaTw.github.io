@@ -11,6 +11,7 @@ body{
   color:black;
   text-align: center;
   font-size:30px;
+  position: relative;
 }
 
 #full-name{
@@ -31,7 +32,7 @@ body{
   font-size: 20px;
   font-weight: 1000;
   position: absolute;
- top:15px;
+  top:15px;
  
 }
 header{
@@ -169,6 +170,19 @@ height: 3%;
   width:80%;
   height:0.5px;
   background-color: #333;
+}
+#horizontal-line-about{
+  border: none;
+  width:80%;
+  height:0.5px;
+  background-color: #333;
+}
+#horizontal-line-projects{
+  border: none;
+  width:80%;
+  height:0.5px;
+  background-color: #333;
+  
 }
 #AR-geospatial-text{
   position: relative;
