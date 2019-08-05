@@ -2,7 +2,7 @@ html{
   text-rendering: optimizelegibility;
 }
 body{
-    background-color:#b3c3f2;
+    background-color:#333333;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -10,6 +10,9 @@ body{
 section{
   position:relative;
   top:20px;
+}
+#container-about{
+  background-color: red;
 }
 #about{
   color:black;
@@ -19,7 +22,6 @@ section{
 }
 #skills{
   position:relative;
- 
   text-align: center;
   font-size:30px;
 }
@@ -37,7 +39,7 @@ section{
     position: absolute;
     top:5px;
     left:34px;
-    color:#d5d8e8;   
+    color:black;   
 		font-size: 30px;
     font-weight: 1000;
     margin: 0px;
@@ -55,15 +57,15 @@ section{
 }
 header{
   position: relative;
-  background-color:black;
-  border-bottom:#000000 2px solid;
+  background-color:#fafafa;
+  border-bottom:#fafafa 2px solid;
   width: 100%;
   height:60px;
   margin: 0px;
 }
 
 #person-description,#projects-anchor,#about-anchor,#skills-anchor{
-  color:#d5d8e8;
+  color:black;
   margin-left: 4px;
   margin-right:10px;
   display: inline;
@@ -123,6 +125,10 @@ header{
   height:5%;
 }
 #Lua-logo{
+  width:5%;
+  height:5%;
+}
+#unity-logo{
   width:5%;
   height:5%;
 }
