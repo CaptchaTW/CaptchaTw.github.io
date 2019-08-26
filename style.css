@@ -12,7 +12,13 @@ section{
   top:20px;
 }
 #container-about{
-  background-color: red;
+  background-color: #C26868;
+}
+#container-skill{
+  background-color:#ddd
+}
+#container-project{
+  background-color:#baf5eb
 }
 #about{
   color:black;
