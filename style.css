@@ -32,7 +32,6 @@ section{
 }
 #container-skill-project{
   position:relative;
-  top:20px;
 }
 #projects{
   position:relative;
@@ -227,7 +226,7 @@ height: 3%;
   width:80%;
   height:0.5px;
   background-color: #333;
-   color: #333
+   color: #333;
 }
 #horizontal-line-about{
 
@@ -236,8 +235,8 @@ height: 3%;
   width:80%;
   height:0.5px;
   background-color: #333;
-   color: #333
-  
+  color: #333;
+    
 }
 
 
@@ -247,8 +246,8 @@ height: 3%;
   width:80%;
   height:0.5px;
   background-color: #333;
-   color: #333
-  
+  color: #333;
+ 
 }
 #AR-geospatial-text{
   position: relative;
