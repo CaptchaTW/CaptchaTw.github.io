@@ -203,24 +203,29 @@ width:3%;
 height: 3%;
 }
 #horizontal-line-skills{
-  border: none;
+ border-style:solid;
+ border-width: thin;
   width:80%;
   height:0.5px;
   background-color: #333;
-  position:static;
+   color: #333
 }
 #horizontal-line-about{
 
-  border: none;
+ border-style:solid;
+ border-width: thin;
   width:80%;
   height:0.5px;
   background-color: #333;
+   color: #333
 }
 #horizontal-line-projects{
-  border: none;
+ border-style:solid;
+ border-width: thin;
   width:80%;
   height:0.5px;
   background-color: #333;
+   color: #333
   
 }
 #AR-geospatial-text{
