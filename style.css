@@ -30,9 +30,7 @@ section{
   text-align: center;
   font-size:30px;
 }
-#container-skill-project{
-  position:relative;
-}
+
 #projects{
   position:relative;
   text-align:center;
@@ -221,32 +219,32 @@ width:3%;
 height: 3%;
 }
 #horizontal-line-skills{
- border-style:solid;
- border-width: thin;
-  width:80%;
-  height:0.5px;
-  background-color: #333;
-   color: #333;
+  position: absolute;
+  left:10%;
+  width: 80%;
+  margin-top:5px;
+  height: 1px;
+  border-top: 1px solid black
 }
 #horizontal-line-about{
+  position: absolute;
+  left:10%;
+  width: 80%;
+  height: 1px;
+  border-top: 1px solid black
+  margin-top:5px;
 
- border-style:solid;
- border-width: thin;
-  width:80%;
-  height:0.5px;
-  background-color: #333;
-  color: #333;
-    
 }
 
 
 #horizontal-line-projects{
- border-style:solid;
- border-width: thin;
-  width:80%;
-  height:0.5px;
-  background-color: #333;
-  color: #333;
+  position: absolute;
+  left:10%;
+  width: 80%;
+  height: 1px;
+  border-top: 1px solid black
+  margin-top:5px;
+
  
 }
 #AR-geospatial-text{
