@@ -121,9 +121,11 @@ header{
 }
 #CSharp-logo{
   position:relative;
-  width:5%;
-  height:5%;
-  left:200px;
+  width:7%;
+  height:7%;
+  left:210px;
+  top:10px;
+  
 
 }
 #Lua-logo{
