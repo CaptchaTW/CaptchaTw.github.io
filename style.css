@@ -13,28 +13,38 @@ section{
 }
 #container-about{
   background-color: #C26868;
+ 
 }
 #container-skill{
-  background-color:#ddd
+  background-color:#ddd;
+ 
+
+
 }
 #container-project{
-  background-color:#baf5eb
+  background-color:#baf5eb;
+ 
+
+
 }
 #about{
   position:relative;
-  text-align:center;
+  text-align:left;
   font-size:30px;
+  left:155px;
 }
 #skills{
   position:relative;
-  text-align: center;
+  text-align: left;
   font-size:30px;
+  left:175px;
 }
 
 #projects{
   position:relative;
-  text-align:center;
+  text-align:left;
   font-size:30px;
+  left:170px;
 }
 #full-name{
   font-family:"Eurostile",sans-serif;
@@ -159,10 +169,13 @@ header{
 #AR-geospatial{
   width:15%;
   height:15%;
+  position: relative;
+  top:10px;
 }
 #AR-geospatial-modal{
   width:50%;
   height:50%;
+ 
 }
 #circle-click{
   border-radius:12px;
@@ -222,29 +235,26 @@ height: 3%;
 }
 #horizontal-line-skills{
   position: absolute;
-  left:10%;
-  width: 80%;
-  margin-top:5px;
+  left:150px;
+  width: 120px;
   height: 1px;
   border-top: 1px solid black;
 }
 #horizontal-line-about{
-  position: absolute;
-  left:10%;
-  width: 80%;
+  position: relative ;
+  left:150px;
+  width: 120px;
   height: 1px;
   border-top: 1px solid black;
-  margin-top:5px;
 
 }
 
 #horizontal-line-projects{
-  position: absolute;
-  left:10%;
-  width: 80%;
+  position: relative;
+  left:150px;
+  width: 120px;
   height: 1px;
   border-top: 1px solid black;
-  margin-top:5px;
 
 }
 #AR-geospatial-text{
