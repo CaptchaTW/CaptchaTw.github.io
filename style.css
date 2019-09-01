@@ -1,5 +1,6 @@
 html{
   text-rendering: optimizelegibility;
+
 }
 body{
     background-color:#333333;
@@ -18,33 +19,26 @@ section{
 #container-skill{
   background-color:#ddd;
  
-
-
 }
 #container-project{
   background-color:#baf5eb;
- 
-
 
 }
 #about{
   position:relative;
-  text-align:left;
   font-size:30px;
-  left:155px;
+  margin-left:277px;
 }
 #skills{
   position:relative;
-  text-align: left;
   font-size:30px;
-  left:175px;
+  margin-left:302px;
 }
 
 #projects{
   position:relative;
-  text-align:left;
   font-size:30px;
-  left:170px;
+  margin-left:287px;
 }
 #full-name{
   font-family:"Eurostile",sans-serif;
@@ -104,77 +98,122 @@ header{
 #welcome-description{
   color:black;
   word-wrap: break-word;
-  margin: 0 auto; 
+  margin-left: 277px;
   text-align: justify;
   font-size:20px;
   line-height:150%;
-  width:70%;
+  width:60%;
 }
 #job-status{
   font-size:25px;
-  text-align:center;
+  margin-left: 277px;
   position:relative;
 }
 
 #python-logo{
   position:relative;
   width: 15%;
-  height:15%;
-  left:100px;
+  left:375px;
+  right:0px;
+
 }
 #java-logo{
   position:relative;
   width:4%;
-  height:4%;
-  left:150px;
-  top:10px;
+  left:430px;
+  margin-top:10px;
+  right:0px;
+
 }
 #CSharp-logo{
   position:relative;
-  width:7%;
-  height:7%;
-  left:210px;
-  top:10px;
+  width:5.5%;
+  left:540px;
+  margin-top:10px;
+  right:0px;
+
   
 
 }
 #Lua-logo{
   position:relative;
-  width:5%;
-  height:5%;
-  left:250px;
+  width:5.5%;
+  left:650px;
+  right:0px;
+
 }
 #HTML5-logo{
   position:relative;
-  width:5%;
-  height:5%;
-  left:300px
+  width:7%;
+  left:450px;
+  margin-top:50px;
+  right:0px;
 
 }
 #CSS3-logo{
   position:relative;
   width:5%;
-  height:5%;
-  left:350px
+  left:550px;
+  right:0px;
+
+}
+#javascript-logo{
+  position:relative;
+  width:5%;
+  left:655px;
+  right:0px;
 
 }
 
 #unity-logo{
   position:relative;
-  width:5%;
-  height:5%;
-  left:400px;
+  width:15%;
+  left:700px;
+  right:0px;
+
+}
+#cpp-logo{
+  position:relative;
+  width:6%;
+  left:460px;
+  margin-top:50px;
+  right:0px;
+  margin-bottom: 50px;
+
+
+}
+#sql-logo{
+  position:relative;
+  width:12%;
+  left:520px;
+  right:0px;
+  margin-bottom: 50px;
+
+}
+#selenium-logo{
+  position:relative;
+  width:8%;
+  left:550px;
+  right:0px;
+  margin-bottom: 50px;
+
+}
+
+#git-logo{
+  position:relative;
+  width:11%;
+  left:600px;
+  right:0px;
+  margin-bottom: 50px;
 
 }
 #AR-geospatial{
   width:15%;
-  height:15%;
   position: relative;
-  top:10px;
+  margin-top:10px;
 }
 #AR-geospatial-modal{
   width:50%;
-  height:50%;
  
 }
 #circle-click{
@@ -231,18 +270,17 @@ header{
 }
 #email-logo{
 width:3%;
-height: 3%;
 }
 #horizontal-line-skills{
   position: absolute;
-  left:150px;
+  left:275px;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
 }
 #horizontal-line-about{
   position: relative ;
-  left:150px;
+  left:275px;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
@@ -251,7 +289,7 @@ height: 3%;
 
 #horizontal-line-projects{
   position: relative;
-  left:150px;
+  left:275px;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
