@@ -269,8 +269,19 @@ header{
 
 }
 #email-logo{
-width:3%;
+font-size:40px;
 }
+
+#github-logo{
+ font-size:40px;
+
+}
+#linkedin-logo{
+  font-size:40px;
+ }
+ #icons{
+   text-align:center;
+ }
 #horizontal-line-skills{
   position: absolute;
   left:275px;
