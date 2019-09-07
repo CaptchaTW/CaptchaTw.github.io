@@ -8,9 +8,12 @@ body{
     position: absolute;
     min-width: 1000px;
 }
+
 section{
   position:relative;
   top:20px;
+}
+footer{
 }
 #container-about{
   background-color: #C26868;
@@ -27,18 +30,18 @@ section{
 #about{
   position:relative;
   font-size:30px;
-  margin-left:277px;
+  margin-left:21.8%;
 }
 #skills{
   position:relative;
   font-size:30px;
-  margin-left:302px;
+  margin-left:23.5%;
 }
 
 #projects{
   position:relative;
   font-size:30px;
-  margin-left:287px;
+  margin-left:22.3%;
 }
 #full-name{
   font-family:"Eurostile",sans-serif;
@@ -94,147 +97,179 @@ header{
 #welcome-description{
   color:black;
   word-wrap: break-word;
-  margin-left: 277px;
+  margin-left: 25%;
   text-align: justify;
   font-size:20px;
   line-height:150%;
-  width:60%;
+  width:45%;
 }
 #job-status{
   font-size:25px;
-  margin-left: 277px;
+  margin-left: 27%;
   position:relative;
 }
 
 #python-logo{
   position:relative;
-  max-width:227.75px;
-  margin-left:375px;
-  width: 100%;
-  height: auto;
+  max-width:14%;
+  margin-left:25%;
+
 }
 #java-logo{
   position:relative;
-  max-width:60.7333px;
+  max-width:4%;
   margin-top:10px;
   right:0px;
-  margin-left:62px;
-  width: 100%;
-  height: auto;
+  margin-left:3%;
+
 }
 #CSharp-logo{
   position:relative;
-  max-width:83.5px;
+  max-width:6%;
   margin-top:10px;
   right:0px;
-  margin-left:105px;
-  width: 100%;
-  height: auto;
+  margin-left:5.5%;
+
 
 }
 #Lua-logo{
   position:relative;
-  max-width:83.5px;
+  max-width:6%;
   right:0px;
-  margin-left:120px;
-  width: 100%;
-  height: auto;
+  margin-left:6%;
+  
 }
 #HTML5-logo{
   position:relative;
-  max-width:106.283px;
-  margin-left:450px;
+  max-width:7%;
+  margin-left:29%;
   margin-top:50px;
   right:0px;
-  width: 100%;
-  height: auto;
+
 }
 #CSS3-logo{
   position:relative;
-  max-width:75.9167px;
+  max-width:5%;
   right:0px;
-  margin-left:100px;
-  width: 100%;
-  height: auto;
+  margin-left:5.5%;
+
 }
 #javascript-logo{
   position:relative;
-  max-width:75.9167px;
-  margin-left:105px;
+  max-width:5%;
+  margin-left:5%;
   right:0px;
-  width: 100%;
-  height: auto;
+  left:10px;
+
 }
 
 #unity-logo{
   position:relative;
-  max-width:227.75px;
+  max-width:15%;
   right:0px;
-  margin-left:40px;
-  width: 100%;
-  height: auto;
+  margin-left:2%;
+  top:15px;
+ 
 }
 #cpp-logo{
   position:relative;
-  max-width:91.1px;
-  margin-left:460px;
+  max-width:6%;
+  margin-left:29.5%;
   margin-top:50px;
   right:0px;
   margin-bottom: 50px;
-  width: 100%;
-  height: auto;
+
 }
 #sql-logo{
   position:relative;
-  max-width:182.2px;
-  margin-left:60px;
+  max-width:11%;
+  margin-left:3%;
   right:0px;
   margin-bottom: 50px;
-  width: 100%;
-  height: auto;
+  bottom:10px;
+
 }
 #selenium-logo{
   position:relative;
-  max-width:121.467px;
-  margin-left:25px;
+  max-width:8%;
+  margin-left:1%;
   right:0px;
   margin-bottom: 50px;
-  width: 100%;
-  height: auto;
+ bottom:5px;
 }
 
 #git-logo{
   position:relative;
-  max-width:167.017px;
-  margin-left:50px;
+  max-width:10%;
+  margin-left:3%;
   right:0px;
   margin-bottom: 50px;
-  width: 100%;
-  height: auto;
+ bottom:15px;
 }
 #AR-geospatial{
-  width:15%;
+  min-width:25%;
+  max-width:25%;
   position: relative;
-  margin-top:10px;
+  margin-top:1%;
+  margin-left:25%;
+
+}
+#agent-commission{
+  min-width:22.5%;
+  max-width:22.5%;
+  position: relative;
+  margin-top:1%;
+  margin-left:5%;
+
+}
+#agent-commission-modal{
+  width:60%;
+
+  
+}
+#agent-commission-modal-text{
+  position:relative;
+  margin-left:60%;
+  bottom:510px;
+}
+#AR-project-Text{
+  margin-left:25%;
+  font-size:1.6vw;
+  position:relative;
+  
+}
+#agent-commission-Text{
+margin-left:4.5%;
+position:relative;
+font-size: 1.6vw;
+
 }
 #AR-geospatial-modal{
-  width:50%;
- 
+  width:60%;
+
 }
 #circle-click{
   border-radius:12px;
-  height:12px;
-  width:12px;
+  height:20px;
+  width:20px;
   border:1px solid black;
-  display: inline-block;}
+  display: inline-block;
+  background-color:black;
+  position: relative;
+  bottom:15px;
+  margin-left:25%;
+}
+
 #circle-click1{
   border-radius:12px;
-  height:12px;
-  width:12px;
+  height:20px;
+  width:20px;
   border:1px solid black;
   display: inline-block;
   position: relative;
-  left: 20px;
+  margin-left: 2%;
+  position: relative;
+  bottom:15px;
 }
 /* The Modal (background) */
 .modal {
@@ -285,17 +320,18 @@ font-size:40px;
  }
  #icons{
    text-align:center;
+   
  }
 #horizontal-line-skills{
   position: absolute;
-  left:275px;
+  margin-left:22%;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
 }
 #horizontal-line-about{
   position: relative ;
-  left:275px;
+  left:22%;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
@@ -304,16 +340,16 @@ font-size:40px;
 
 #horizontal-line-projects{
   position: relative;
-  left:275px;
+  left:22%;
   width: 120px;
   height: 1px;
   border-top: 1px solid black;
 
 }
 #AR-geospatial-text{
-  position: relative;
-  left: 500px;
-  bottom:200px;
+  position:relative;
+  margin-left:60%;
+  bottom:450px;
 }
 @font-face {
     font-family: 'Eurostile';
