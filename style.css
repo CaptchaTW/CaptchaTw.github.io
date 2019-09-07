@@ -7,6 +7,8 @@ body{
     padding: 0;
     position: absolute;
     min-width: 1000px;
+    font-family:"Eurostile",sans-serif;
+
 }
 
 section{
@@ -31,6 +33,7 @@ footer{
   position:relative;
   font-size:30px;
   margin-left:21.8%;
+  
 }
 #skills{
   position:relative;
@@ -211,7 +214,7 @@ header{
   max-width:25%;
   position: relative;
   margin-top:1%;
-  margin-left:25%;
+  margin-left:24vw;
 
 }
 #agent-commission{
@@ -219,7 +222,7 @@ header{
   max-width:22.5%;
   position: relative;
   margin-top:1%;
-  margin-left:5%;
+  margin-left:3vw;
 
 }
 #agent-commission-modal{
@@ -233,15 +236,15 @@ header{
   bottom:510px;
 }
 #AR-project-Text{
-  margin-left:25%;
+  margin-left:24vw;
   font-size:1.6vw;
   position:relative;
-  
+
 }
 #agent-commission-Text{
-margin-left:4.5%;
-position:relative;
+margin-left:4.5vw;
 font-size: 1.6vw;
+position:relative;
 
 }
 #AR-geospatial-modal{
@@ -266,7 +269,6 @@ font-size: 1.6vw;
   width:20px;
   border:1px solid black;
   display: inline-block;
-  position: relative;
   margin-left: 2%;
   position: relative;
   bottom:15px;
@@ -297,7 +299,7 @@ font-size: 1.6vw;
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
 }
 

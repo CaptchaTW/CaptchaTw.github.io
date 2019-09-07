@@ -5,8 +5,8 @@ var modal1 = document.getElementById("my-modal1");
 var image = document.getElementById("AR-geospatial");
 var image1 = document.getElementById("agent-commission");
 
-var span = document.getElementsByClassName("close")[0];
-var span1 = document.getElementsByClassName("close")[1];
+var span = document.getElementById("closebutton");
+var span1 = document.getElementById("closebutton1");
 
 var AR_image_change = document.getElementById("AR-geospatial-modal");
 var button_AR_change = document.getElementById("circle-click");
@@ -36,15 +36,19 @@ image.onclick = function() {
 image1.onclick = function() {
   modal1.style.display = "block";
 }
+
 span.onclick = function() {
   modal.style.display = "none";
 }
 span1.onclick = function() {
   modal1.style.display = "none";
 }
+
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
 }
