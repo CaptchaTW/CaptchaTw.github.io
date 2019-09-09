@@ -214,7 +214,7 @@ header{
   max-width:25%;
   position: relative;
   margin-top:1%;
-  margin-left:24vw;
+  margin-left:24%;
 
 }
 #agent-commission{
@@ -222,8 +222,22 @@ header{
   max-width:22.5%;
   position: relative;
   margin-top:1%;
-  margin-left:3vw;
+  margin-left:3%;
 
+}
+#kutsu{
+  min-width:22.5%;
+  max-width:22.5%;
+  position: relative;
+  margin-left:25%;
+  margin-top:2%;
+}
+#cute-okay{
+  min-width:22.5%;
+  max-width:22.5%;
+  position: relative;
+  margin-left:4.5%;
+  
 }
 #agent-commission-modal{
   width:60%;
@@ -236,17 +250,28 @@ header{
   bottom:510px;
 }
 #AR-project-Text{
-  margin-left:24vw;
+  margin-left:24%;
   font-size:1.6vw;
   position:relative;
 
 }
 #agent-commission-Text{
-margin-left:4.5vw;
+margin-left:4.5%;
 font-size: 1.6vw;
 position:relative;
 
 }
+#kutsu-Text{
+  margin-left:27%;
+  font-size:1.6vw;
+  position:relative;
+}
+#cute-okay-Text{
+  margin-left:8%;
+  font-size: 1.6vw;
+  position:relative;
+}
+
 #AR-geospatial-modal{
   width:60%;
 
