@@ -25,6 +25,9 @@ var button_AR_change1 = document.getElementById("circle-click1");
 var AR_image_change1 = document.getElementById("kutsu-modal");
 var button_AR_change2 = document.getElementById("circle-click2");
 var button_AR_change3 = document.getElementById("circle-click3");
+var AR_image_change2 = document.getElementById("cuteokay-modal");
+var button_AR_change4 = document.getElementById("circle-click4");
+var button_AR_change5 = document.getElementById("circle-click5");
 
 var email_logo = document.getElementById("email-logo");
 var github_logo = document.getElementById("github-logo");
@@ -53,6 +56,17 @@ button_AR_change2.onclick = function(){
   AR_image_change1.src="Images/kutsu-detail.png";
   button_AR_change3.style.backgroundColor= "transparent";
   button_AR_change2.style.backgroundColor= "black";
+}
+button_AR_change5.onclick= function(){
+  AR_image_change2.src="Images/cute-okay-detail1.png";
+  button_AR_change4.style.backgroundColor= "transparent";
+  button_AR_change5.style.backgroundColor= "black";
+
+}
+button_AR_change4.onclick = function(){
+  AR_image_change2.src="Images/cute-okay-detail.png";
+  button_AR_change5.style.backgroundColor= "transparent";
+  button_AR_change4.style.backgroundColor= "black";
 }
 image.onclick = function() {
   modal.style.display = "block";
