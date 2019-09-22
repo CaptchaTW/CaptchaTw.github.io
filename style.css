@@ -249,29 +249,60 @@ header{
   margin-left:60%;
   bottom:510px;
 }
+@media only screen and (min-width: 1000px){
 #AR-project-Text{
   margin-left:24%;
   font-size:1.6vw;
   position:relative;
-
 }
+}
+@media only screen and (max-width: 1000px){
+#AR-project-Text{
+  margin-left:24%;
+  font-size:16px;
+  position:relative;
+}
+}
+@media only screen and (min-width: 1000px){
 #agent-commission-Text{
 margin-left:4.5%;
 font-size: 1.6vw;
 position:relative;
-
 }
+}
+@media only screen and (max-width: 1000px){
+#agent-commission-Text{
+margin-left:4.5%;
+font-size:16px;
+position:relative;
+}
+}
+@media only screen and (min-width: 1000px){
 #kutsu-Text{
   margin-left:27%;
   font-size:1.6vw;
   position:relative;
 }
+}
+@media only screen and (max-width: 1000px){
+#kutsu-Text{
+  margin-left:27%;
+ font-size:16px;
+  position:relative;
+}
+}
+@media only screen and (min-width: 1000px){
 #cute-okay-Text{
   margin-left:8%;
   font-size: 1.6vw;
   position:relative;
-}
-
+}}
+@media only screen and (max-width: 1000px){
+#cute-okay-Text{
+  margin-left:8%;
+ font-size:16px;
+  position:relative;
+}}
 #AR-geospatial-modal{
   width:60%;
 
