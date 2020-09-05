@@ -19,7 +19,7 @@ footer{
 }
 #container-about{
   background-color: #aed3e4;
- 
+  padding-top:1%;
 }
 #container-skill{
   background-color:#ddd;
@@ -101,12 +101,12 @@ header{
 #welcome-description{
   color:black;
   word-wrap: break-word;
-  margin-left: 25%;
   text-align: justify;
   font-size:20px;
   line-height:150%;
   width:45%;
-  
+  margin-left: 25%;  
+  margin-top:0.5%;
 }
 #job-status{
   font-size:40px;
